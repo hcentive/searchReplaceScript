@@ -6,11 +6,13 @@ This script helps in mass search replace of strings in files. Following is the u
 	    searchReplace.py 
 
 	SYNOPSIS
-		searchReplace.py [-s source] source_folder [-c csv] csv_file [-e extensions] file_extensions
+		searchReplace.py [-s source] source_folder [-c csv] csv_file [-e extensions] 
+		file_extensions
 
 	DESCRIPTION
-		searchReplace.py does mass find and replace across files of given extension in a given folder.
-		It parses csv file to get key value pairs, where key is replaced with value in files
+		searchReplace.py does mass find and replace across files of given extension in a 
+		given folder. It parses csv file to get key value pairs, where key is replaced 
+		with value in files
 
 	OPTIONS
 	     -s source 	
@@ -25,8 +27,11 @@ This script helps in mass search replace of strings in files. Following is the u
 	     	Comma separated extensions of files in which find replace needs to be done. By default
 	     	.jsp is used
 
-	EXAMPLE
-	     searchReplace.py -e .text
+
+## Example
+
+	searchReplace.py -e .text
 	     
-	     will look for changeKV.csv file in the same folder as searchReplace.py and perform find replace
-	     in files of .text extension
+	     
+The above command will look for changeKV.csv file in the same folder as searchReplace.py and perform find replace
+in files of .text extension.
