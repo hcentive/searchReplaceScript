@@ -30,8 +30,7 @@ This script helps in mass search replace of strings in files. Following is the u
 
 ## Example
 
-	searchReplace.py -e .text
+	searchReplace.py -s /usr/local/codebase -c /usr/local/change.csv -e .text
 	     
 	     
-The above command will look for changeKV.csv file in the same folder as searchReplace.py and perform find replace
-in files of .text extension.
+The above command will parse `/usr/local/change.csv` and perform find replace in files of extension `.text` in `/usr/local/codebase`.
